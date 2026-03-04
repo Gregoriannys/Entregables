@@ -10,12 +10,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         SistemaPedidos sistema = new SistemaPedidos();
 
-        // 🔹 Cargar datos al iniciar
+       
         sistema.cargarProductos();
         sistema.cargarClientes();
         sistema.cargarPedidos();
 
-        // 🔹 Iniciar hilos
+      
         ProcesadorPedidos procesador = new ProcesadorPedidos(sistema);
         GeneradorReportes generador = new GeneradorReportes(sistema);
 
@@ -35,7 +35,7 @@ public class Main {
             System.out.println("7. Listar pedidos");
             System.out.println("8. Cambiar estado de pedido");
 
-            // 🔹 NUEVAS OPCIONES
+          
             System.out.println("9. Guardar sistema manualmente");
             System.out.println("10. Cargar sistema desde archivos");
             System.out.println("11. Generar reporte del sistema");
@@ -95,7 +95,7 @@ public class Main {
 
         } while (opcion != 0);
 
-        // 🔹 Guardar al finalizar
+        
         sistema.guardarTodo();
         procesador.detener();
         sc.close();
