@@ -401,8 +401,7 @@ public class SistemaPedidos {
                 int id = Integer.parseInt(partes[0]);
                 String estado = partes[1];
 
-                // Nota: aquí necesitarías buscar cliente real
-                // Por ahora lo dejamos simple
+               
             }
 
         } catch (IOException e) {
