@@ -1,0 +1,7 @@
+REPORTE DEL SISTEMA
+Fecha: Wed Mar 04 10:44:43 AST 2026
+Total productos: 1
+Total clientes: 1
+BORRADOR: 0
+CONFIRMADO: 0
+PROCESADO: 0
