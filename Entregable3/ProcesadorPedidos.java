@@ -8,7 +8,7 @@ public class ProcesadorPedidos extends Thread {
 
     public ProcesadorPedidos(SistemaPedidos sistema) {
         this.sistema = sistema;
-        setPriority(MAX_PRIORITY); // opcional según mandato
+        setPriority(MAX_PRIORITY); 
     }
 
     public void detener() {
