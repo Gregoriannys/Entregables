@@ -60,7 +60,7 @@ public class Main {
                     case 7: sistema.opcionListarPedidos(); break;
                     case 8: sistema.opcionCambiarEstadoPedido(sc); break;
 
-                    // 🔹 NUEVAS
+                   
                     case 9:
                         sistema.guardarTodo();
                         break;
